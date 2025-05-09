@@ -41,7 +41,7 @@ function App() {
     setError("");
 
     try {
-      const res = await fetch("http://localhost:8000/api/solve", {
+      const res = await fetch("http://jorneytocalulus2ai-grfgbxcnesggg9hb.centralus-01.azurewebsites.net/api/solve", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
